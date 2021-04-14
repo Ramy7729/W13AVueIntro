@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <page-header title="Euro Style Board Games"/>
+    <page-body/>
+    <page-footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+// Importing components to make up the content of the page.
+// Each component is a module that is specific to the page.
+import PageHeader from './components/PageHeader.vue'
+import PageBody from './components/PageBody.vue'
+import PageFooter from './components/PageFooter.vue'
+
+// Registering components for use in other vue files.
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageHeader,
+    PageBody,
+    PageFooter
   }
 }
 </script>
 
 <style>
+
+body {
+  background-color: #fffafa;
+}
+  
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: grid;
+  place-items: center;
 }
 </style>
