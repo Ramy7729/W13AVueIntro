@@ -1,11 +1,11 @@
 <template>
     <div>
-        <img src="../assets/cob.jpg" alt="">
-        <img src="../assets/concordia.jpg" alt="">
-        <img src="../assets/kanbanev.jpg" alt="">
-        <img src="../assets/raiders.jpg" alt="">
-        <img src="../assets/thegallerist.png" alt="">
-        <img src="../assets/viticulture.jpg" alt="">
+        <img src="../assets/cob.jpg" alt="The Castles of Burgundy board game">
+        <img src="../assets/concordia.jpg" alt="Concordia board game">
+        <img src="../assets/kanbanev.jpg" alt="Kanban EV board game">
+        <img src="../assets/raiders.jpg" alt="Raiders of the North Sea board game">
+        <img src="../assets/thegallerist.png" alt="The Gallerist board game">
+        <img src="../assets/viticulture.jpg" alt="Viticulture board game">
     </div>
 </template>
 
